@@ -1,6 +1,6 @@
 # FrontEnd practicas
 
-## Semana 1 Despege
+## Semana 1 Despegue
 
 - **Practicas**
 	- [Toma de requerimientos](./semana_1_Despege/1.-Reqierimientos.doc)
