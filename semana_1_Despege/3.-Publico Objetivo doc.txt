@@ -1,0 +1,39 @@
+﻿Publico Objetivo.
+
+Demográfico: 
+    • Edad:  de 18 en adelante.
+    • Genero:  Indistinto.
+    • Ingresos: 12000 MXN  en adelante al mes.
+    • Educación: Preferente licenciatura.
+    • Estatus social: Indistinto.
+    • Familia: Indistinto.
+    • Etapa de la vida: Indistinto.
+    • Ocupación: Indistinto.
+
+Geográfico:
+    • País:  México.
+    • Ciudad: Durango.
+    • Densidad: Cualquier.
+    • Idioma: Español.
+    • Clima: Indistinto.
+    • Zona: Indistinto.
+    • Población: Indistinto.
+
+Psicografico:
+    • Estilo de Vida: Indistinto
+    • AIO(Actividad, Interés, Opinión): Personas que necesite realizar tramites legales por internet.
+    • Preocupaciones: Por hechos legales que no comprenda
+    • Personalidad: Indistinto
+    • Valores: Responsable, Paciencia, Sinceridad
+    • Actitudes: positiva, proactiva, asertiva
+
+De Comportamiento:
+    • Beneficios Buscados: Solución de los problemas legales.
+    • Compra: Indistinto
+    • Uso: Indistinto
+    • Intención: Indistinto
+    • Ocasión: Indistinto
+    • Etapa de Comprador: Indistinto
+    • Estatus de Usuario: Indistinto
+    • Etapa del Ciclo de vida: Indistinto
+    • Interacción: Indistinto
