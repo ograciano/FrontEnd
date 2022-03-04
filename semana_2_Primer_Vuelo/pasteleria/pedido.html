@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos Pasteleria</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <header class="fila">
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                <center>
+                    <img src="./img/pasteleria.png" alt="logo pasteleria">
+                </center>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-0"></div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                <div id="redes" class="fila">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <center>
+                            <p>x</p>
+                        </center>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <center>
+                            <p>x</p>
+                        </center>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <center>
+                            <p>x</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <form action="./action.js">
+            <div class="fila">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su Nombre"><br>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <label for="telefono">Telefono:</label>
+                    <input type="number" name="telefono" id="telefono" placeholder="Escriba su Telefono" maxlength="10"><br>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <label for="correo">Correo Electronico:</label>
+                    <input type="email" name="correo" id="correo" placeholder="Escriba su correo electronico"><br>
+                </div>
+            </div>
+
+            <p>Selecciona el sabor o los sabores que quieras incluir en tu pastel</p>
+            <div class="fila">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <label class="label" for="limon">Limon
+                        <input type="checkbox" name="limon" id="limon" value="Limon">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="label" for="fresa">Fresa
+                        <input type="checkbox" name="fresa" id="fresa" value="Fresa">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="label" for="aleman">Aleman
+                        <input type="checkbox" name="aleman" id="aleman" value="Aleman">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <label class="label" for="naranja">Naranja
+                        <input type="checkbox" name="naranja" id="naranja" value="Naranja">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="label" for="chocolate">Chocolate
+                        <input type="checkbox" name="chocolate" id="chocolate" value="Chocolate">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="label" for="tres_leches">Tres Leches
+                        <input type="checkbox" name="tres_leches" id="tres_leches" value="Tres Leches">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <p>Va a decorar su pastel?</p>
+            <div class="fila">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-0"></div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <center>
+                        <label class="radio">Si
+                            <input type="radio" name="decorado">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="radio">No
+                            <input type="radio" name="decorado">
+                            <span class="checkmark"></span>
+                        </label>
+                    </center>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-0"></div>
+            </div>
+
+            <p>Seleccione la decoracion para su pastel</p>
+            <div class="fila">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <label class="label" for="velas">Velas
+                        <input type="checkbox" name="velas" id="velas" value="Velas">
+                        <span class="checkmark"></span>
+                    </label>
+                    <input type="number" name="velasCuentos" id="velasCuentos" placeholder="Cuantas?">
+
+                    <label class="label" for="velasNum">Velas de numero
+                        <input type="checkbox" name="velasNum" id="velasNum" value="velasNum">
+                        <span class="checkmark"></span>
+                    </label>
+                    <input type="number" name="velasnumCuentos" id="velasnumCuentos" placeholder="Cuatas?">
+
+                    <label class="label" for="nave">Nave
+                        <input type="checkbox" name="nave" id="nave" value="nave">
+                        <span class="checkmark"></span>
+                    </label>
+                    <input type="number" name="naveCuantos" id="naveCuantos" placeholder="Cuantas?">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <label class="label" for="astronauta">astronauta
+                    <input type="checkbox" name="astronauta" id="astronauta" value="astronauta">
+                        <span class="checkmark"></span>
+                    </label>
+                    <input type="number" name="astronautaCuentos" id="astronautaCuentos" placeholder="Cuantos?">
+
+                    <label class="label" for="banderillas">banderillas con forma de estrella
+                        <input type="checkbox" name="banderillas" id="banderillas" value="banderillas">
+                        <span class="checkmark"></span>
+                    </label>
+                    <input type="number" name="banderillasCuentos" id="banderillasCuentos" placeholder="Cuantas?">
+
+                    <label class="label" for="letrero">letrero de feliz cumpleaños
+                        <input type="checkbox" name="letrero" id="letrero" value="letrero">
+                        <span class="checkmark"></span>
+                    </label>
+                    <input type="number" name="letreroCuentos" id="letreroCuentos" placeholder="Cuantos?">
+                </div>
+            </div>
+            <div class="fila">
+
+            </div>
+
+            <center>
+                <input class="boton" type="submit" value="Enviar">
+            </center>
+        </form>
+
+        <section id="seccion3" class="fila">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <a href="./index.html">Inicio</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <a href="./admin.html">Administrador</a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
+        </section>
+
+
+        <footer id="footer" class="fila">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <p>Estamos situados en calle bernan correa no. 125 colonia del viajero cp 34825</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <p>Telefono de contacto: 618-654-56-13</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <p>Horario de atencion: lun a vie de 8:00 am a 8:pm horario corrido y sabados de 8:00 am a 2:00 pms</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
