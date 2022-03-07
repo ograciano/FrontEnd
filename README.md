@@ -9,3 +9,9 @@
 	- [Crea tu primer Wireframe UX](./semana_1_Despege/4.-wireframe.pdf)
 	- [Ahora el UI](./semana_1_Despege/5.-Abogabot.xd)
 
+## Semana 2 Primer Vuelo
+
+- **Practicas**
+	-[Generacion de la pagina html con bonus css](./semana_2_Primer_Vuelo/pasteleria)
+	-[Pagina desplegada en dominio gratuito](http://practicapasteleria.x10.mx/)
+
