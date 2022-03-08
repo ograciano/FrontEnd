@@ -1,0 +1,741 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.fila {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+}
+
+[class*='col-'] {
+    float: left;
+    padding: 10px;
+}
+
+
+/* -------------------------------------
+Header
+------------------------------------- */
+
+nav {
+    position: fixed;
+    z-index: 2;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(53, 85, 211, .1));
+}
+
+.logo p {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3252d0;
+    text-align: center;
+}
+
+.btnhead {
+    color: #6d7b93;
+    font-size: 20px;
+    text-align: center;
+    border-width: 0;
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+    padding-top: 10px;
+}
+
+.btnhead:hover {
+    background: #6d7b93;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.active {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background: #3252d0;
+    border-radius: 5px;
+    border-width: 0;
+    width: 100%;
+    box-shadow: 0 3px 10px #3252d0;
+}
+
+
+/* -------------------------------------
+Seccion 1
+ ------------------------------------- */
+
+.imagenGral {
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+}
+
+h1 {
+    margin-top: 50px;
+    color: #1f3e72;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+section div p {
+    width: 400px;
+    font-size: 20px;
+    color: #6d7b93;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+i {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 208, 18, .2);
+    box-shadow: 0 3px 15px rgba(255, 208, 18, .8);
+    padding-top: 5px;
+    color: #ffd012;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fila div div {
+    font-size: 20px;
+    color: #6d7b93;
+}
+
+.cedula i {
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    background: rgba(31, 62, 114, .2);
+    box-shadow: 0 3px 10px rgba(31, 62, 114, .8);
+    padding-top: 5px;
+    color: #3252d0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cedula p {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f3e72;
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+.cedula {
+    font-size: 30px;
+    color: #1f3e72;
+}
+
+.ced-desplegada {
+    position: absolute;
+    float: right;
+    left: 100px;
+    top: 530px;
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 3px 3px 8px rgba(31, 62, 114, .8);
+    z-index: 1;
+}
+
+.parrafo-float {
+    display: block;
+    margin-left: 5px !important;
+    font-size: 20px !important;
+    color: #6d7b93 !important;
+}
+
+.medium {
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(31, 62, 114, .8);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.margin {
+    margin-top: 40px;
+}
+
+
+/* -------------------------------------
+Seccion 2
+ ------------------------------------- */
+
+img {
+    width: 100%;
+    height: 200px;
+    color: #6d7b93;
+}
+
+#seccion2 {
+    margin-bottom: 100px;
+}
+
+
+/* -------------------------------------
+Seccion 3
+ ------------------------------------- */
+
+.card {
+    width: 100%;
+    height: 420px;
+    border-radius: 10px;
+    border: 2px solid #a7a7a72a;
+    margin-bottom: 30px;
+}
+
+.card .cedula i {
+    margin-left: 30px;
+    box-shadow: 0 0 0 !important;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    background: rgba(53, 85, 211, .1);
+}
+
+.card h3 {
+    width: 250px;
+    color: #1f3e72;
+}
+
+.card h3 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card p {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 250px;
+}
+
+.card-active {
+    box-shadow: 0px 15px 30px rgba(31, 62, 114, .2);
+    border: none !important;
+}
+
+.card-active .cedula i {
+    box-shadow: 0px 15px 30px rgba(31, 62, 114, .2);
+    border: none !important;
+}
+
+
+/* -------------------------------------
+Seccion 4
+ ------------------------------------- */
+
+#seccion4 div div img {
+    position: relative;
+    float: left;
+    z-index: 1;
+    bottom: 300px;
+    margin-bottom: -200px;
+}
+
+.fondo-azul {
+    position: relative;
+    z-index: -1;
+    float: left;
+    top: 400px;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to left, rgb(16, 95, 160), rgb(84, 155, 236));
+}
+
+.card-prep {
+    width: 100%;
+    height: 65px;
+    border-radius: 10px;
+    border: 2px solid #a7a7a72a;
+    margin-bottom: 15px;
+}
+
+.card-prep-act {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid #a7a7a72a;
+    margin-bottom: 30px;
+}
+
+.card-prep-act h3 {
+    width: 350px;
+    color: #1f3e72;
+    margin-left: 70px;
+    display: inline;
+    font-weight: normal;
+}
+
+.card-prep-act p {
+    width: 350px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.card-prep .cedula i {
+    margin-left: 30px;
+    box-shadow: 0 0 0 !important;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background: rgba(53, 85, 211, .1);
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.card-prep-act .cedula i {
+    margin-left: 30px;
+    box-shadow: 0 0 0 !important;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background: rgba(53, 85, 211, .1);
+    margin-top: 5px;
+}
+
+.card-prep .cedula {
+    width: 20x;
+    height: 20px;
+}
+
+.card-prep-act .cedula {
+    width: 20x;
+    height: 15px;
+}
+
+.min-icon {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #1f3e72;
+    background: rgba(53, 85, 211, .1);
+    box-shadow: none;
+    font-size: 15px !important;
+    width: 20px;
+    height: 20px;
+}
+
+.min-icon-up {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #6d7b93 !important;
+    background: #6d7b9323 !important;
+    box-shadow: none;
+    font-size: 15px !important;
+    width: 20px;
+    height: 20px;
+}
+
+.card-prep h3 {
+    width: 350px;
+    color: #1f3e72;
+    margin-left: 70px;
+    display: inline;
+    font-weight: normal;
+}
+
+.card-prep p {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 250px;
+}
+
+
+/* -------------------------------------
+Seccion 5
+ ------------------------------------- */
+
+#seccion5 div div img {
+    position: relative;
+    float: left;
+    z-index: 1;
+    bottom: 300px;
+    margin-bottom: -200px;
+}
+
+.card-contact {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid #a7a7a72a;
+    margin-bottom: 15px;
+}
+
+.card-contact .cedula i {
+    margin-left: 30px;
+    box-shadow: 0 0 0 !important;
+    border-radius: 5px;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    background: rgba(53, 85, 211, .1);
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.card-contact h3 {
+    font-weight: normal;
+    display: inline;
+    position: relative;
+    float: left;
+    bottom: 60px;
+    left: 100px;
+}
+
+.card-contact p {
+    font-weight: normal;
+    font-size: 12px;
+    display: inline;
+    position: relative;
+    float: left;
+    bottom: 60px;
+    left: 110px;
+}
+
+.btn-contact {
+    position: relative;
+    float: left;
+    left: 35px;
+    bottom: 30px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: rgba(31, 62, 114, .1);
+    color: #1f3e72;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-contact-active {
+    position: relative;
+    float: left;
+    left: 35px;
+    bottom: 30px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: #3252d0;
+    box-shadow: 0px 10px 10px rgba(31, 62, 114, .2);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* -------------------------------------
+Footer
+ ------------------------------------- */
+
+footer {
+    margin: 0 100px;
+    background: #eef3ff;
+}
+
+.parrafo {
+    font-size: 15px !important;
+    color: #6d7b93 !important;
+    line-height: 30px;
+}
+
+footer div div div p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer div div div p a {
+    font-size: 15px;
+    color: #6d7b93;
+}
+
+footer div div p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer div div p.term {
+    float: right;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer div div p a {
+    padding-right: 20px;
+    font-size: 15px;
+    color: #6d7b93;
+}
+
+
+/* -------------------------------------
+Patalla de escritorio grande(lg)
+ ------------------------------------- */
+
+@media(min-width: 1200px) {
+    .col-lg-12 {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .col-lg-11 {
+        width: 91.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-lg-10 {
+        width: 83.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-lg-9 {
+        width: 75%;
+        flex: 0 0 auto;
+    }
+    .col-lg-8 {
+        width: 66.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-lg-7 {
+        width: 58.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-lg-6 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+    .col-lg-5 {
+        width: 41.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-lg-4 {
+        width: 33.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-lg-3 {
+        width: 25%;
+        flex: 0 0 auto;
+    }
+    .col-lg-2 {
+        width: 16.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-lg-1 {
+        width: 8.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-lg-0 {
+        display: none;
+    }
+    .medium {
+        display: none;
+    }
+}
+
+
+/* -------------------------------------
+Patalla de escritorio mediano(md)
+------------------------------------- */
+
+@media(max-width: 1199px) and (min-width: 992px) {
+    .col-md-12 {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .col-md-11 {
+        width: 91.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-md-10 {
+        width: 83.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-md-9 {
+        width: 75%;
+        flex: 0 0 auto;
+    }
+    .col-md-8 {
+        width: 66.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-md-6 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+    .col-md-5 {
+        width: 41.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-md-4 {
+        width: 33.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-md-3 {
+        width: 25%;
+        flex: 0 0 auto;
+    }
+    .col-md-2 {
+        width: 16.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-md-1 {
+        width: 8.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-md-0 {
+        display: none;
+    }
+    .medium {
+        display: none;
+    }
+}
+
+
+/* -------------------------------------
+Patalla de escritorio tables small(sm)
+------------------------------------- */
+
+@media(max-width: 991px) and (min-width: 576px) {
+    .col-sm-12 {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .col-sm-11 {
+        width: 91.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-sm-10 {
+        width: 83.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-sm-9 {
+        width: 75%;
+        flex: 0 0 auto;
+    }
+    .col-sm-8 {
+        width: 66.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-sm-7 {
+        width: 58.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-sm-6 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+    .col-sm-5 {
+        width: 41.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-sm-4 {
+        width: 33.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-sm-3 {
+        width: 25%;
+        flex: 0 0 auto;
+    }
+    .col-sm-2 {
+        width: 16.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-sm-1 {
+        width: 8.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-sm-0 {
+        display: none;
+    }
+    .ced-desplegada {
+        display: none;
+    }
+}
+
+
+/* -------------------------------------
+Patalla de escritorio telefonos(xs)
+------------------------------------- */
+
+@media(max-width: 575px) {
+    .col-xs-12 {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .col-xs-11 {
+        width: 91.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-xs-10 {
+        width: 83.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-xs-9 {
+        width: 75%;
+        flex: 0 0 auto;
+    }
+    .col-xs-8 {
+        width: 66.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-xs-7 {
+        width: 58.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-xs-6 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+    .col-xs-5 {
+        width: 41.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-xs-4 {
+        width: 33.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-xs-3 {
+        width: 25%;
+        flex: 0 0 auto;
+    }
+    .col-xs-2 {
+        width: 16.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-xs-1 {
+        width: 8.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-xs-0 {
+        display: none;
+    }
+    .ced-desplegada {
+        display: none;
+    }
+}
