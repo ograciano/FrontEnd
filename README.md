@@ -15,3 +15,8 @@
 	- [Generacion de la pagina html con bonus css](./semana_2_Primer_Vuelo/pasteleria)
 	- [Pagina desplegada en dominio gratuito](http://practicapasteleria.x10.mx/)
 
+## Semana 3 Volando con Estilo
+
+- **Practicas**
+	- [Generacion de los estilos de una pagina apartir de una Imagen (Covid)](./semana_3_Viajando_con_Estilo)
+	- [Pagina desplegada en dominio gratuito](http://practicasfrontend.x10.mx/paginacovid/)
