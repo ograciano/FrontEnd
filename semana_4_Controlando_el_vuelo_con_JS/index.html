@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body onload="fetch50()">
+    <div class="contenedor">
+        <header>
+            <div class="fila nav">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h1><a href="index.html">Pokedex LaunchX </a> </h1>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-0 col-xs-0"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <p class="pheader">Busca Tu pokemon por medio del nombre o por su numero de la pokedex</p>
+                </div>
+            </div>
+        </header>
+        <div class="cuerpo">
+            <div class="fila">
+                <div class="col-lg-3 col-md-3 col-sm-1 col-xs-0"></div>
+                <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12">
+                    <input type="text" name="pokeName" id="pokeName" placeholder="busca tu pokemon">
+                    <button class="btn" onclick="imprimir()">Buscar</button>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-1 col-xs-0"></div>
+            </div>
+            <br>
+            <div id="pokemones"></div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script src="js/app.js"></script>
+</footer>
+
+</html>

@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.fila {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+}
+
+[class*='col-'] {
+    float: left;
+    padding: 10px;
+}
+
+
+/* -------------------------------------
+Card Pokemon
+------------------------------------- */
+
+.card-poke {
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 130px;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.card-poke p img {
+    position: relative !important;
+    float: right;
+    z-index: 0;
+}
+
+.card-poke p img.img-search {
+    bottom: 50px !important;
+}
+
+.number {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+    margin-bottom: 5px;
+}
+
+.card-name {
+    font-size: 20px;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+
+.pheader {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.card-poke p span {
+    background: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 5px;
+    opacity: .3;
+    color: black;
+}
+
+p span {
+    background: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 5px;
+    opacity: .3;
+    color: black;
+}
+
+.fila.nav {
+    position: fixed;
+    background: rgba(57, 113, 233, 0.7);
+    z-index: 1;
+    box-sizing: border-box;
+    top: 0;
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h1 a {
+    color: black;
+}
+
+.cuerpo {
+    margin-top: 100px;
+}
+
+#pokeName {
+    border-radius: 25px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background: rgba(231, 231, 231, 0.623);
+    border: none;
+}
+
+.btn {
+    border: 2px solid red;
+    background: white;
+    color: red;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(31, 62, 114, .8);
+}
+
+.btn:hover {
+    border: 2px solid red;
+    background: red;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.btn:active {
+    border: 2px solid rgba(255, 0, 0, 0.822);
+    background: red;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.card-head {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    height: 370px;
+    background: white;
+}
+
+.pokeImg {
+    width: 200px;
+    height: 200px;
+    position: relative !important;
+    float: right;
+    z-index: 2;
+    top: 50px;
+    left: 30px;
+}
+
+#pokemon {
+    position: relative;
+    left: 25px;
+}
+
+.card-body {
+    position: relative;
+    border-radius: 20px;
+    right: 50px;
+    width: 100%;
+    height: 370px;
+    background: rgb(245, 245, 245);
+}
+
+.card-head div div p.number {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.card-head div div p.card-name {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.card-head div div p span {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 20px !important;
+}
+
+.card-head div div p span:last-child {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px !important;
+}
+
+div#info {
+    margin-left: 50px;
+}
+
+.stats p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.stats {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+}
+
+.moves p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.moves {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 3px solid grey !important;
+}
+
+.active p {
+    font-weight: bold !important;
+    font-size: 15px !important;
+    color: grey;
+}
+
+#stats h3 {
+    text-align: center;
+}
+
+#moves h3 {
+    text-align: center;
+}
+
+#stats p {
+    font-weight: bolder;
+    line-height: 40px;
+}
+
+#stats span {
+    position: relative;
+    float: right;
+    bottom: 30px;
+    color: grey;
+}
+
+#moves div div p {
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/* -------------------------------------
+Patalla de escritorio grande(lg)
+ ------------------------------------- */
+
+@media(min-width: 1200px) {
+    .col-lg-12 {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .col-lg-11 {
+        width: 91.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-lg-10 {
+        width: 83.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-lg-9 {
+        width: 75%;
+        flex: 0 0 auto;
+    }
+    .col-lg-8 {
+        width: 66.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-lg-7 {
+        width: 58.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-lg-6 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+    .col-lg-5 {
+        width: 41.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-lg-4 {
+        width: 33.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-lg-3 {
+        width: 25%;
+        flex: 0 0 auto;
+    }
+    .col-lg-2 {
+        width: 16.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-lg-1 {
+        width: 8.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-lg-0 {
+        display: none;
+    }
+}
+
+
+/* -------------------------------------
+Patalla de escritorio mediano(md)
+------------------------------------- */
+
+@media(max-width: 1199px) and (min-width: 992px) {
+    .col-md-12 {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .col-md-11 {
+        width: 91.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-md-10 {
+        width: 83.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-md-9 {
+        width: 75%;
+        flex: 0 0 auto;
+    }
+    .col-md-8 {
+        width: 66.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-md-6 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+    .col-md-5 {
+        width: 41.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-md-4 {
+        width: 33.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-md-3 {
+        width: 25%;
+        flex: 0 0 auto;
+    }
+    .col-md-2 {
+        width: 16.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-md-1 {
+        width: 8.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-md-0 {
+        display: none;
+    }
+}
+
+
+/* -------------------------------------
+Patalla de escritorio tables small(sm)
+------------------------------------- */
+
+@media(max-width: 991px) and (min-width: 576px) {
+    .col-sm-12 {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .col-sm-11 {
+        width: 91.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-sm-10 {
+        width: 83.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-sm-9 {
+        width: 75%;
+        flex: 0 0 auto;
+    }
+    .col-sm-8 {
+        width: 66.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-sm-7 {
+        width: 58.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-sm-6 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+    .col-sm-5 {
+        width: 41.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-sm-4 {
+        width: 33.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-sm-3 {
+        width: 25%;
+        flex: 0 0 auto;
+    }
+    .col-sm-2 {
+        width: 16.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-sm-1 {
+        width: 8.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-sm-0 {
+        display: none;
+    }
+    .cuerpo {
+        margin-top: 110px;
+    }
+    .card-head {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+        width: 100%;
+        height: 300px;
+    }
+    #pokemon {
+        position: relative;
+        left: 0;
+    }
+    .card-body {
+        position: relative;
+        bottom: 60px;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: rgb(238, 238, 238);
+        ;
+    }
+    .pokeImg {
+        width: 200px;
+        height: 200px;
+        position: relative !important;
+        float: right;
+        z-index: 2;
+        top: 100px;
+        left: 10px;
+    }
+    div#info {
+        padding-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+/* -------------------------------------
+Patalla de escritorio telefonos(xs)
+------------------------------------- */
+
+@media(max-width: 575px) {
+    .col-xs-12 {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .col-xs-11 {
+        width: 91.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-xs-10 {
+        width: 83.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-xs-9 {
+        width: 75%;
+        flex: 0 0 auto;
+    }
+    .col-xs-8 {
+        width: 66.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-xs-7 {
+        width: 58.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-xs-6 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+    .col-xs-5 {
+        width: 41.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-xs-4 {
+        width: 33.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-xs-3 {
+        width: 25%;
+        flex: 0 0 auto;
+    }
+    .col-xs-2 {
+        width: 16.66666667%;
+        flex: 0 0 auto;
+    }
+    .col-xs-1 {
+        width: 8.33333333%;
+        flex: 0 0 auto;
+    }
+    .col-xs-0 {
+        display: none;
+    }
+    .cuerpo {
+        margin-top: 150px;
+    }
+    .card-head {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+        width: 100%;
+        height: 300px;
+    }
+    #pokemon {
+        position: relative;
+        left: 0;
+    }
+    .card-body {
+        position: relative;
+        bottom: 60px;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background: rgb(238, 238, 238);
+        ;
+    }
+    .pokeImg {
+        width: 200px;
+        height: 200px;
+        position: relative !important;
+        float: right;
+        z-index: 2;
+        top: 100px;
+        left: 10px;
+    }
+    div#info {
+        padding-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
