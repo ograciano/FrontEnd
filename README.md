@@ -20,3 +20,9 @@
 - **Practicas**
 	- [Generacion de los estilos de una pagina apartir de una Imagen (Covid)](./semana_3_Viajando_con_Estilo)
 	- [Pagina desplegada en dominio gratuito](http://practicasfrontend.x10.mx/paginacovid/)
+
+## Semana 4 Controlando el vuelo con JS
+
+- **Practicas**
+	- [Grneracion de una Pokedex con el api de POKEAPI](./semana_4_Controlando_el_vuelo_con_JS)
+	- [Pagina desplegada en dominio gratuito](http://practicasfrontend.x10.mx/pokedex/)
