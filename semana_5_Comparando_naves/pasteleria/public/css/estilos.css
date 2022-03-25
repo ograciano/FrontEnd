@@ -8,7 +8,7 @@
     }
     
     body {
-        background-image: url(../img/fondo.jpg);
+        background-image: url(fondo.jpg);
     }
     
     .contenedor {
@@ -272,8 +272,8 @@
     
     .boton {
         border-radius: 5px;
-        width: 300px !important;
-        background: white;
+        width: 300px;
+        background: green;
         box-sizing: border-box;
     }
     
