@@ -26,3 +26,10 @@
 - **Practicas**
 	- [Grneracion de una Pokedex con el api de POKEAPI](./semana_4_Controlando_el_vuelo_con_JS)
 	- [Pagina desplegada en dominio gratuito](http://practicasfrontend.x10.mx/pokedex/)
+
+## Semana 5 Comparando Naves
+
+- **Practicas**
+	- [Grneracion de la pagina de pasteleria con VUE](./semana_5_Comparando_naves/pasteleria)
+	- [Pagina desplegada en dominio gratuito](http://practicasfrontend.x10.mx/pasteleriavue/)
+
